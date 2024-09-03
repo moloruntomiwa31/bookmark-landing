@@ -24,7 +24,7 @@
   let activeTab = setOfTabs[0];
 </script>
 
-<section id="features" class="grid place-items-center gap-4 w-full px-6">
+<section id="features" class="grid place-items-center gap-4 w-full p-6">
   <div class="grid gap-4 text-center md:w-1/3">
     <h2
       class="text-xl md:text-2xl lg:text-3xl tracking-wide font-bold text-blue-950 capitalize"

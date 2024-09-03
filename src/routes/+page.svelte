@@ -4,6 +4,7 @@
   import Features from "../components/features/Features.svelte";
   import Footer from "../components/Footer.svelte";
   import Extensions from "../components/extensions/Extensions.svelte";
+  import FAQS from "../components/faqs/FAQS.svelte";
 </script>
 
 <Navbar />
@@ -11,6 +12,7 @@
   <Hero />
   <Features />
   <Extensions />
+  <FAQS />
 </main>
 <Footer />
 
