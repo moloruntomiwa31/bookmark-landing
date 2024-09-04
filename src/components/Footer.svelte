@@ -9,12 +9,12 @@
       link: "#features",
     },
     {
-      title: "Pricing",
-      link: "/",
+      title: "FAQS",
+      link: "#faqs",
     },
     {
       title: "Contact",
-      link: "/",
+      link: "#contact",
     },
   ];
 </script>
@@ -26,7 +26,7 @@
     class="w-full md:w-1/2 flex flex-col md:flex-row items-center justify-between gap-10"
   >
     <Logo />
-    <ul class="grid md:grid-cols-3 gap-2">
+    <ul class="grid md:grid-cols-3 gap-2 text-center">
       {#each links as link (link.title)}
         <li>
           <a

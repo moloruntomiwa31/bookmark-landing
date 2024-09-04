@@ -1,10 +1,10 @@
 <script>
-    // your script goes here
-    import Card from "./Card.svelte";
+  // your script goes here
+  import Card from "./Card.svelte";
   import chrome from "../../assets/images/logo-chrome.svg";
   import firefox from "../../assets/images/logo-firefox.svg";
   import opera from "../../assets/images/logo-opera.svg";
-    const cards = [
+  const cards = [
     {
       id: "1",
       title: "Add to Chrome",
@@ -29,8 +29,8 @@
   ];
 </script>
 
-<section id="extensions" class="grid place-items-center gap-4 w-full p-6">
-  <div class="grid gap-4 text-center md:w-2/5">
+<section id="extensions" class="grid place-items-center gap-4 w-full py-12">
+  <div class="grid gap-4 p-6 text-center md:w-2/5">
     <h2
       class="text-xl md:text-2xl lg:text-3xl tracking-wide font-bold text-blue-950 capitalize"
     >
@@ -42,8 +42,8 @@
     </p>
   </div>
   <div class="w-full grid md:grid-cols-3 gap-4 place-items-center">
-    {#each cards as card (card.id)}
-      <Card {...card} />
+    {#each cards as card, index (card.id)}
+      <Card {...card} {index} />
     {/each}
   </div>
 </section>

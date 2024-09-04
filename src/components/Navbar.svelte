@@ -12,12 +12,12 @@
       link: "#features",
     },
     {
-      title: "Pricing",
-      link: "/",
+      title: "FAQS",
+      link: "#faqs",
     },
     {
       title: "Contact",
-      link: "/",
+      link: "#contact",
     },
   ];
   let showMobileLinks: boolean = false;

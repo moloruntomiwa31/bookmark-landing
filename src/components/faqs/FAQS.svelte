@@ -35,8 +35,8 @@
   ];
 </script>
 
-<section id="faqs" class="grid place-items-center gap-4 w-full p-6">
-  <div class="grid gap-4 text-center md:w-3/5">
+<section id="faqs" class="grid place-items-center gap-4 w-full py-12">
+  <div class="grid gap-4 px-6 text-center md:w-3/5">
     <h2
       class="text-xl md:text-2xl lg:text-3xl tracking-wide font-bold text-blue-950 capitalize"
     >
@@ -47,7 +47,7 @@
       answer please feel free to mail us.
     </p>
   </div>
-  <div class="w-full grid gap-4 place-items-center">
+  <div class="w-4/5 md:w-full grid gap-4 place-items-center">
     {#each faqs as faq, i (faq.id)}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <!-- svelte-ignore a11y-no-static-element-interactions -->

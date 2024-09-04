@@ -7,11 +7,12 @@
   export let image;
   export let buttonText;
   export let id;
+  export let index;
 </script>
 
 <div
   class="card shadow-xl rounded p-6 w-4/5 md:w-[270px] h-[350px] grid place-content-between"
-  style:transform={`translateY(${parseInt(id) * 50})`}
+  style="transform: translateY({index * 50}px)"
 >
   <div class="header grid place-items-center text-center space-y-2">
     <img src={image} alt={title} />
